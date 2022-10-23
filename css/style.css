@@ -51,7 +51,17 @@
 html{
 background:#000000 !important;
 }
+.event-name{
+	color:#DEDEDE;
+	/* border: 2px solid pink; */
+}
 
+/* .containerflex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left:15% ;
+} */
 body {
 	display:none;
 	font-family: "Open Sans",Arial, Helvetica, sans-serif;
@@ -7498,5 +7508,6 @@ display:table;
 	
 	.grid-item .pf_title{
 		display:none;
+	}
 	}
 	}

@@ -99,7 +99,7 @@
  }
 			@property [tickInterval=1] {number} The interval (seconds) between <code>onTick</code> callbacks. */
 		defaultOptions: {
-			until: null,
+			until: null,	
 			since: null,
 			timezone: null,
 			serverSync: null,
