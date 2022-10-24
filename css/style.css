@@ -52,16 +52,28 @@ html{
 background:#000000 !important;
 }
 .event-name{
-	color:#DEDEDE;
-	/* border: 2px solid pink; */
+font-size: 72px;
+  /* background: -webkit-linear-gradient(#e3a7ff, #827ec8); */
+  background: white;
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* .containerflex{
+.flextesting{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left:15% ;
-} */
+	flex-wrap:wrap;
+	/* padding-left:15% ; */
+}
+.flextesting1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	/* padding-left:15% ; */
+}
 body {
 	display:none;
 	font-family: "Open Sans",Arial, Helvetica, sans-serif;
