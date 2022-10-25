@@ -69,9 +69,16 @@ input[type=submit].btn-custom,
 }
 
 .bg-color-2,
-.pricing-s1 .ribbon,
-.box-number:hover i.bg-color.hover-color-2{
+.pricing-s1 .ribbon{
 	background-color:var(--secondary-color);
+}
+.box-number:hover i.bg-color.hover-color-2{
+	background-color:#8846a6;
+}
+
+.social-icons i{
+	border-color:var(--primary-color-1) !important;
+	border-radius: 50%;
 }
 
 section.gradient-to-right,
