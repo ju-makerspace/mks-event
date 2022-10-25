@@ -1,0 +1,7 @@
+added carousel images
+
+created sections as per the content writers
+
+fixed timer
+
+lorem100

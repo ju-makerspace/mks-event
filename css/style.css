@@ -51,7 +51,29 @@
 html{
 background:#000000 !important;
 }
+.event-name{
+font-size: 72px;
+  /* background: -webkit-linear-gradient(#e3a7ff, #827ec8); */
+  background: white;
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.flextesting{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	/* padding-left:15% ; */
+}
+.flextesting1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	/* padding-left:15% ; */
+}
 body {
 	display:none;
 	font-family: "Open Sans",Arial, Helvetica, sans-serif;
@@ -7498,5 +7520,6 @@ display:table;
 	
 	.grid-item .pf_title{
 		display:none;
+	}
 	}
 	}
