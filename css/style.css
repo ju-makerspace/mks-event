@@ -60,6 +60,20 @@ font-size: 72px;
   -webkit-text-fill-color: transparent;
 }
 
+.featurebutton:hover{
+	background: #9539bf;
+	color: rgb(231, 0, 0);
+
+}
+.blurbox {
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);  
+	
+  }
+
 .flextesting{
 	display: flex;
 	justify-content: center;
@@ -3425,14 +3439,14 @@ border:solid 1px #ddd;
 	color:#111111;
 	}
 	
-	/*
+/* 	
 	.social-icons .fa-facebook{	background:#305fb3;	}
 	.social-icons .fa-twitter{	background:#00d7d5;	}
 	.social-icons .fa-rss{ background:#fca600;	}
 	.social-icons .fa-google-plus{ background:#d7482a;	}
 	.social-icons .fa-skype{ background:#12c7ef;	}
 	.social-icons .fa-dribbble{ background:#f06eaa;	}
-	*/
+	 */
 	
 	/* tabs */
 	/* ================================================== */
