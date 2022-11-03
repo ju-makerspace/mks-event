@@ -6777,7 +6777,10 @@ display:table;
 .height-auto{
 	height:auto;
 }
-
+.logo2{
+	height:20px;	
+	padding-bottom: 100px;
+}
 /* ================================================== */
 /* R E S P O N S I V E */
 /* ================================================== */
@@ -6858,7 +6861,7 @@ display:table;
 		width:100%;
 		right:1px;
 	}
-	
+
 	
 	header.side-header,
 	.de_light header.side-header{
