@@ -12,6 +12,15 @@
     section{
         padding:50px 0px 50px 0px
     }
+    .event-name{
+        font-size: 25px;
+    }
+    .customcaro1{
+        font-size:16px !important;
+    }
+    .present{
+        font-size:10px !important;
+    }    
 }
 /* .tp-static-layers{} */
 /* #slider-revolution{
@@ -30,6 +39,9 @@
     color: transparent; */
     /* color:rgb(255, 177, 226); */
     color:#f8fdc8;
+    /* margin-top: -10px; */
+    font-size: 27px;
+    letter-spacing: 3px;
 }
 .contact{
     margin: 0px 0px 30px 0;
@@ -39,7 +51,9 @@
     font-size: 17px;
     /* font-weight: 400; */
 }
-
+.present{
+    font-size:18px;
+}
 
 @media screen and (max-width: 600px){
     #section-sponsors {
@@ -54,3 +68,6 @@
         /* padding:0 15px 0 15px; */
     }   
 }
+/* .present{
+    padding-bottom:200px !important ;
+} */
