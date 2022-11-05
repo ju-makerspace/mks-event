@@ -72,14 +72,7 @@ font-size: 72px;
 	-ms-filter: blur(5px);
 	filter: blur(5px);  
 	user-select: none;
-  }
-.blurbox1 {
-	-webkit-filter: blur(17px);
-	-moz-filter: blur(17px);
-	-o-filter: blur(17px);
-	-ms-filter: blur(17px);
-	filter: blur(17px);  
-	user-select: none;
+
   }
 
 .flextesting{
@@ -308,13 +301,6 @@ overflow:visible;
 	}
 	.logo-small{
 	margin-bottom:20px;
-	width: 200px;
-	}
-	@media screen and (max-width: 600px){
-		.logo-small{
-			margin-bottom:20px;
-			width: 175px;
-			}
 	}
 		
 	header.de_header_2{
@@ -3198,12 +3184,10 @@ border:solid 1px #ddd;
 .pricing-s1 .top {
 	background: #222427;
 	color: #eee;
-	padding: 20px; /* 2/11 change to 20 */
-	/* padding: 40px;  */
+	padding: 40px;
 	color: #ECF0F1;
 	text-align: center;
 }
-
 .pricing-s1 .top h2 {
 	font-size: 24px;
 	margin-bottom: 20px;
@@ -3432,20 +3416,11 @@ border:solid 1px #ddd;
 		margin-top:-40px;
 	}
 	
-
+	
 	/* social-icons */
 	/* ================================================== */
 	.social-icons{
-	/* display:inline-block; */
-	padding-left:380%;
-	display:flex;
-	}
-	@media screen and (max-width: 600px){
-		.social-icons{
-			/* display:inline-block; */
-			padding-left:60%;
-			display:flex;
-			}
+	display:inline-block;
 	}
 	.social-icons i{
 	text-shadow:none;
@@ -4091,8 +4066,8 @@ border:solid 1px #ddd;
 		margin-bottom:5px;
 	}
 	
-	/* .de-team-list .social{
-	} */
+	.de-team-list .social{
+	}
 	
 	.de-team-list .social a{
 	display:inline-block;
@@ -5382,28 +5357,6 @@ color:#606060;
 }
 .text-light .wm{
 	color:rgba(255,255,255,.05);
-}
-.ptimer{
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-/* Media query 1/11 */
-@media screen and (max-width: 600px){
-	.wm{
-		font-size:90px;
-		position: static;
-	}
-	.wm.dark.wm-border{
-		font-size:90px;
-	}
-	h1{
-		opacity: 70%;
-	}
-	.ptimer{
-		padding-top: 0px;
-		padding-bottom: 0px;
-	}
-
 }
 .demo-icon-wrap{
 	margin-bottom:30px;
@@ -6720,6 +6673,7 @@ float:none;
 .pb70{padding-bottom:40px;} 
 .pb80{padding-bottom:70px;}
 
+
 /* margin top */
 .mt-10{margin-top:-10px;}.mt-20{margin-top:-20px;}.mt-30{margin-top:-30px;}.mt-40{margin-top:-40px;}.mt-50{margin-top:-50px;}.mt-60{margin-top:-60px;}.mt-70{margin-top:-70px;}.mt-80{margin-top:-80px;}.mt-90{margin-top:-90px;}.mt-100{margin-top:-100px;}.mt-110{margin-top:-110px;}.mt-120{margin-top:-120px;}.mt-120{margin-top:-120px;}.mt-130{margin-top:-130px;}
 	
@@ -6777,10 +6731,7 @@ display:table;
 .height-auto{
 	height:auto;
 }
-.logo2{
-	height:20px;	
-	padding-bottom: 100px;
-}
+
 /* ================================================== */
 /* R E S P O N S I V E */
 /* ================================================== */
@@ -6861,7 +6812,7 @@ display:table;
 		width:100%;
 		right:1px;
 	}
-
+	
 	
 	header.side-header,
 	.de_light header.side-header{
@@ -6995,8 +6946,8 @@ display:table;
 	padding: 20px;
 	}
 	
-	/* #revolution-slider{
-	} */
+	#revolution-slider{
+	}
 	
 	nav{
 	width:100%;

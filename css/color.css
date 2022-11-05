@@ -85,9 +85,7 @@ section.gradient-to-right,
 .ps1-deco{
 background:linear-gradient(to right, var(--primary-color-1), var(--secondary-color));
 }
-/* .id-color-3{
-	background-image:linear-gradient(to right, var(--primary-color-1), var(--secondary-color));
-} */
+
 .feature-box i,
 #mainmenu li:hover > ul,
 .date-box .day,
