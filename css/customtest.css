@@ -19,8 +19,18 @@
         font-size:16px !important;
     }
     .present{
-        font-size:10px !important;
+        font-size: 9px !important;
     }    
+    .btn-place{
+        padding:6px !important;
+        font-size: 10px !important;
+    }
+    .countdown-amount{
+        font-size:25px;
+    }
+    .countdown-period{
+        font-size:10px;
+    }
 }
 /* .tp-static-layers{} */
 /* #slider-revolution{
