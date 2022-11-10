@@ -1,0 +1,56 @@
+faqtest {
+    overflow-x: hidden;
+   }
+   
+.accordion {
+    padding: 4rem;
+}
+   
+summary {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    background: #161617;
+    /* border: solid 2px#363637; */
+    padding: 1rem 2rem;
+}
+
+summary:hover{
+    background-color: hsl(278, 50%, 40%);
+}
+   
+details {
+display: block;
+margin: 0 auto;
+width: 100%;
+margin-bottom: 1rem;
+background: 161617;
+border: solid 2px #363637;
+text-align: left;
+word-break: keep-all;
+}
+
+details p {
+margin: 1rem auto;
+translate: 2rem 0;
+}
+
+summary > * {
+display: inline;
+}
+@media screen and (max-width: 600px){
+    details{
+        margin-bottom: 0.5rem;
+    }
+    summary{
+        padding:1px 2px;
+        width: 90%;
+    }
+    .accordion {
+        padding:10%;
+    }
+    details p {
+        margin: 0px 0 0 0px;
+        translate: 2rem 0;
+        }
+}
